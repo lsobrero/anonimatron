@@ -13,7 +13,7 @@ public class CFAnonymizerTest extends TestCase {
         assertFalse("GRDFNC53M29D086U".equals(result.getTo()));
         assertEquals(16, ((String) result.getTo()).length());
         assertFalse(result.isShortLived());
-        assertEquals("ZBVOHY53Q29V086L", result.getTo());
+        assertEquals("ZBVOHY53S29D086L", result.getTo());
     }
 
     public  void testCFAnonymizer01(){
